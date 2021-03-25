@@ -1,5 +1,7 @@
 .git/
 __pycache__/
 .vscode/
+inventories
 events-vol*
+eventsMomentum-vol*
 mlfinlab/
