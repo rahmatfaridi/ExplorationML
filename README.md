@@ -1,7 +1,7 @@
 # Momentum Model
 
 This Model focuses on predicting genral tendency for the next 20 Days(max),
-eather long or short. I filter out samples which are not hitting targets within 20 days, which is about 50% of samples.
+eather long or short. I filter out samples which are not hitting targets within 20 days, which is about 66%% of samples.
 
 Target is daily volatility estimation times 4. Why times 4? Because target(returns) are somewhat comparable to weekly returns and I am looking for a bigger move, which is still realistic within 20 days - 4 weeks, hense times 4.
 
