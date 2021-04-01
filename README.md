@@ -24,6 +24,16 @@ CV is beeing used for Features importance and banchmarking. I use MDI and MDA an
 - MDA: is a Classifier, which derives its performance OOS, one column at a time(out-of-sample) [De Prado 2019]
 - There are some other implementations which I use to make CV work properly. [De Prado 2019] [CodeSnippets] [Transformation]
 
+## Whats next?
+
+Since it became more clear what target I going to use, it also is more clear now what information I would like to add to the model.
+
+- Implied Volatiliy derived from option prices (Dificult to obtain)
+- Trend Scanning/Modeling as a OHLC Features [Trend]
+- Intermarket Analysis (EURUSD, SP500IDX)
+
+After implementing those things I expect marginal improvements which will polish the modell a bit. Then I will implement the model into a trading algorithm. First, I will be looking into a backtest for some cost adjustments. Then implement proper bet sizing, banchmark the model against other strategies and finally stresstest it on 2020 data (corona/demand crisis).
+
 [De Prado 2019]: https://link.springer.com/article/10.1007/s11408-019-00341-4
 [EIA]: getEIA.ipynb
 [CFTC]: getCOT.ipynb
@@ -34,3 +44,4 @@ CV is beeing used for Features importance and banchmarking. I use MDI and MDA an
 [Transformation]: transformation.ipynb
 [Modeling]: modeling.ipynb
 [VolumeBars]: barSampling.ipynb
+[Trend]: CrudeOilMomentumModel.ipynb##-get-Trend-Features
